@@ -15,6 +15,7 @@
       <s:textfield name="personBean.email"  label ="Email"/>  
       <s:textfield name="personBean.age"  label="Age"  />
       <s:submit/>
-    </s:form>	
+    </s:form>
+    <p><a href="<s:url action='list' />" >View User Records.</a>.</p>	
   </body>
 </html>

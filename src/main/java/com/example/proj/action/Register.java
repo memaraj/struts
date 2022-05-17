@@ -1,17 +1,17 @@
 package com.example.proj.action;
 
-import com.opensymphony.xwork2.ActionSupport;
+import com.opensymphony.xwork2.ActionSupport;                                                                                                            
 import com.example.proj.model.Person;
-
+                                        
 import java.sql.Statement;
-import java.sql.Connection;
+import java.sql.Connection;                
 import java.sql.DriverManager;
 import java.sql.SQLException;
 
 public class Register extends ActionSupport {
     
     private static final long serialVersionUID = 1L;
-    
+                                 
     private Person personBean;
     private String error = "Random";
 
